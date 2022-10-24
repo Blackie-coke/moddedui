@@ -1106,7 +1106,7 @@ function MainHolder:Window(HubTitle)
     RemoteSpyButton.TextWrapped = true
 
     RemoteSpyButton.MouseButton1Click:Connect(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/legacy-ui/SimpleSpy.lua"))()
+        loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
     end)
     
     RemoteSpyButtonCorner.CornerRadius = UDim.new(0, 6)
